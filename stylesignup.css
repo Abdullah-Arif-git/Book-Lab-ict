@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'futura';
+}
+
+body{
+    background-color: #08071d;
+    background-image: url(../images/booksign.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#h1{
+  text-align:center;
+  margin-top:200px;
+  font-size:100px;
+}
+
+#container form{
+    height:600px;
+    width:650px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:15px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap:wrap;
+}
+
+#h2{
+    font-size:50px;
+    text-align:center;
+    width:500px;
+}
+
+#container form input{
+    height:40px;
+    width:290px;
+    padding-left:40px;
+    border:none;
+    outline:none;
+    background: none;
+    border-bottom:2px solid whitesmoke;
+    font-size:15px;
+}
+
+#container input::placeholder{
+    color:black;
+}
+
+#container form #button{
+  border:none;
+  border-radius:5px;
+  background-color: #fff;
+  margin-top:80px;
+  padding-left:10px;
+}
+
+#remember{
+    font-size:15px;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-right: 250px; 
+    gap: 0;
+}
+
+#remember input{
+    transform: scale(0.5);
+    height:100;
+    /* margin-right: 50px; */
+}
+#remember label{
+    margin-right: 0;
+}
+
+
+a{
+    height: 50px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 14px;
+
+
+}

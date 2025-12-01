@@ -1,0 +1,116 @@
+/* General reset and layout settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: white;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Container for the about page */
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #dcdcdc;
+    margin-top: 0.5rem;
+  }
+  
+  /* About Content Layout */
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    margin-right: 2rem;
+    padding: 2rem;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for the image */
+  .about-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: #b0b0b0;
+  }
+  
+  /* Minimalistic Buttons */
+  button {
+    background-color: #333;
+    border: 1px solid #555;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
